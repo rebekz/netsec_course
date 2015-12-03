@@ -1,0 +1,5 @@
+#sidejacking using hamster and ferret
+
+ferret -i eth0
+
+hamster
