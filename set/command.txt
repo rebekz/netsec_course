@@ -1,0 +1,1 @@
+ettercap -Tq -i eth0 -M arp -P dns_spoof /ip/port/ /ip/port/
